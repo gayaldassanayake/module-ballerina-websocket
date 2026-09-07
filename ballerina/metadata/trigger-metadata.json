@@ -19,7 +19,6 @@
       "type": { "name": "UpgradeService" },
       "concrete": false,
       "multipleListenersAllowed": true,
-      "annotations": ["$serviceConfig"],
       "identifier": { "presence": "required", "form": ["basePath"] },
       "handlers": {
         "backedByConcreteType": false,
@@ -55,6 +54,7 @@
       "type": { "name": "Service" },
       "concrete": false,
       "multipleListenersAllowed": false,
+      "annotations": ["$serviceConfig"],
       "handlers": {
         "backedByConcreteType": false,
         "options": [
